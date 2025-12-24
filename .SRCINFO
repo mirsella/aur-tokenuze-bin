@@ -1,0 +1,14 @@
+pkgbase = tokenuze-bin
+	pkgdesc = A CLI tool that summarizes token and cost usage from various LLM providers
+	pkgver = 0.7.1
+	pkgrel = 1
+	url = https://github.com/bfactory-ai/tokenuze
+	arch = x86_64
+	license = MIT
+	optdepends = sqlite: for Zed and Crush providers
+	provides = tokenuze
+	conflicts = tokenuze
+	source = tokenuze-bin-0.7.1.tar.gz::https://github.com/bfactory-ai/tokenuze/releases/download/0.7.1/tokenuze-linux-x86_64.tar.gz
+	sha256sums = a04df24541472c5807356fd33530a9c8c3392ab7b012b7cb71784a2f7c4c0e2d
+
+pkgname = tokenuze-bin

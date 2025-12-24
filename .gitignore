@@ -1,0 +1,16 @@
+# makepkg build directories
+src/
+pkg/
+
+# Built packages
+*.pkg.tar.zst
+*.pkg.tar.xz
+*.pkg.tar.gz
+
+# Source tarballs
+*.tar.gz
+*.tar.xz
+*.tar.zst
+
+# Logs
+*.log
